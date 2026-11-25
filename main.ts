@@ -4,7 +4,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const RANT =
-  "I sat down at my desk at 9 a.m. at normal human height. By lunch my office chair had sunk so low my knees were around my ears and I was typing from somewhere near the floor, like a man being slowly swallowed by his own job. Facilities replaced the gas cylinder twice. It still sinks. I have made peace with my controlled descent.";
+  "I sat down at my desk at 9 a.m. at normal human height. By lunch my office chair had sunk so low my knees were around my ears and I was typing from somewhere near the floor, like a man being slowly swallowed by his own job. Facilities replaced the gas cylinder twice. It still sinks. I have made peace with my controlled descent — by Friday I expect to be filing reports from under the desk.";
 
 // The gate only accepts UTF-8 text of 1 to 400 characters, not only
 // whitespace. Fail loudly instead of writing an entry that cannot win.
